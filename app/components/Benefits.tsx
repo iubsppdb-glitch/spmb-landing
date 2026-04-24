@@ -76,7 +76,7 @@ export default function Benefits() {
           <div className="inline-flex flex-col sm:flex-row items-center gap-4 bg-white rounded-4xl px-8 py-6 shadow-card">
             <div className="text-left">
               <p className="font-semibold text-dark">Siap bergabung dengan keluarga SMBN?</p>
-              <p className="text-dark-muted text-sm">Lebih dari {SITE_CONFIG.students} siswa sudah merasakan manfaatnya</p>
+              <p className="text-dark-muted text-sm">Lebih dari {ABOUT.students} siswa sudah merasakan manfaatnya</p>
             </div>
             <a
               href={SITE_CONFIG.registrationUrl}
