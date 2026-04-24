@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import { BENEFITS, SITE_CONFIG } from "../data/content";
+import import { BENEFITS, SITE_CONFIG, ABOUT } from "../data/content";
 
 export default function Benefits() {
   const ref = useRef<HTMLDivElement>(null);
